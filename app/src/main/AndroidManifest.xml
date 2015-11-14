@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softwareengineering_androidcalendar" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="se_calendar"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Month Activity -->
+        <activity android:name="com.softwareengineering_androidcalendar.MonthlyView" />
+
+        <!-- Weekly Activity -->
+        <activity android:name="com.softwareengineering_androidcalendar.WeeklyView" />
+
+        <!-- Daily Activity -->
+        <activity android:name="com.softwareengineering_androidcalendar.DailyView" />
+
+        <!-- Event Activity -->
+        <activity android:name="com.softwareengineering_androidcalendar.EventActivity" />
+
+        <!--DatePickerActivity-->
+        <activity
+            android:name="com.softwareengineering_androidcalendar.DatePickerActivity"
+            android:label="@string/title_activity_date_picker" >
+        </activity>
+
+        <!--TimePickerActivity-->
+        <activity
+            android:name="com.softwareengineering_androidcalendar.TimePickerActivity"
+            android:label="@string/title_activity_time_picker" >
+        </activity>
+
+        <!--EventDetailsActivity-->
+        <activity
+            android:name="com.softwareengineering_androidcalendar.EventDetailsActivity"
+            android:label="@string/event_details" >
+        </activity>
+
+        <!--EventList-->
+        <activity android:name="com.softwareengineering_androidcalendar.EventList" />
+
+        <!--EditEventActivity-->
+        <activity
+            android:name="com.softwareengineering_androidcalendar.EditEventActivity"
+            android:label="@string/title_activity_edit_event" >
+        </activity>
+
+        <!--EventListByDate-->
+        <activity
+            android:name="com.softwareengineering_androidcalendar.EventListByDate"
+            android:label="@string/event_date" >
+        </activity>
+
+        <!--EventListByCategory-->
+        <activity
+            android:name="com.softwareengineering_androidcalendar.EventListByCategory"
+            android:label="@string/event_category" >
+        </activity>
+    </application>
+
+</manifest>
