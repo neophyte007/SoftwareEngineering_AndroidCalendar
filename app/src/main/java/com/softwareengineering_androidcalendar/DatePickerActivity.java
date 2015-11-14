@@ -44,7 +44,7 @@ public class DatePickerActivity extends Activity  implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView textview = new TextView(this);
-        textview.setText("Select Date");
+        textview.setText("Select a Specific Date");
         setContentView(R.layout.calendar_date_picker);
 
         okButton = (Button) this.findViewById(R.id.okbutton_DatePicker);

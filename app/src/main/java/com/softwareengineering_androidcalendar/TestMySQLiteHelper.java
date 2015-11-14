@@ -25,7 +25,7 @@ public class TestMySQLiteHelper extends AndroidTestCase {
      */
     public void testCreateGetCategory() {
         int categoryCount = dbTest.getCategoryCount();
-        Category ctg1 = new Category("Shopping", "WHITE");
+        Category ctg1 = new Category("Traveling", "Green");
         long ctg1_id = dbTest.createCategory(ctg1);
         ctg1.setId(ctg1_id);
         assertEquals(dbTest.getCategoryID(ctg1.getName()).getId(),ctg1.getId());
@@ -40,7 +40,7 @@ public class TestMySQLiteHelper extends AndroidTestCase {
      */
     public void testCreateGetEvent() {
         int eventCount = dbTest.getEventCount();
-        Event testEvent = new Event("Walmart","10/31/2013","10/31/2013","17:30","19:00","Need to bye some tortilla","Repeat-OFF");
+        Event testEvent = new Event("Alaska","12/17/2014","12/17/2014\"","17:30","19:00","Want to see beautiful place","Repeat-OFF");
         long[] testCategoryID = {1};
         long testEvent_ID = dbTest.createEvent(testEvent,testCategoryID);
         testEvent.setId(testEvent_ID);
@@ -53,29 +53,29 @@ public class TestMySQLiteHelper extends AndroidTestCase {
      * Test get category by event.
      */
     public void testGetCategoryByEvent() {
-        Event event7 = new Event("Proloy","2013-11-08","2013-11-08","22:00","23:45","wanna watch this movie","OFF");
+        Event event7 = new Event("Matrix","2012-11-08","2012-11-08","22:00","23:45","Worth to watch","OFF");
         long event7_id = dbTest.createEvent(event7, new long[] { 59 });
         event7.setId(event7_id);
         Category test = dbTest.getCategoryByEvent(event7_id);
-        assertEquals("Shopping",test.getName());
+        assertEquals("Traveling",test.getName());
     }
 
     /**
      * Test get eventby id.
      */
     public void testGetEventbyID() {
-        Event event6 = new Event("Elysium","2013-11-08","2013-11-08","22:00","23:45","wanna watch this movie","OFF");
+        Event event6 = new Event("Mentor","2012-11-08","2012-11-08","22:00","23:45","Worth to watch","OFF");
         long event6_id = dbTest.createEvent(event6, new long[] { 1 });
         event6.setId(event6_id);
         Event test = dbTest.getEvent(event6_id);
-        assertEquals("Elysium",test.getTitle());
+        assertEquals("Mentor",test.getTitle());
     }
 
     /**
      * Test get eventby name.
      */
     public void testGetEventbyName() {
-        Event event6 = new Event("Thor","2013-11-08","2013-11-08","22:00","23:45","wanna watch this movie","OFF");
+        Event event6 = new Event("Thor","2012-11-08","2012-11-08","22:00","23:45","Worth to watch","OFF");
         long event6_id = dbTest.createEvent(event6, new long[] { 1 });
         event6.setId(event6_id);
         Event test = dbTest.getEvent("Thor");
@@ -99,11 +99,11 @@ public class TestMySQLiteHelper extends AndroidTestCase {
      * Test update event.
      */
     public void testUpdateEvent() {
-        Event event2 = new Event("Phone","11/01/2013","11/01/2013","22:00","22:15","I will call my mom","Repeat-OFF");
+        Event event2 = new Event("Phone","11/01/2013","11/01/2013","22:00","22:15","I will call her","Repeat-OFF");
         long event2_id = dbTest.createEvent(event2, new long[] { 1 });
         event2.setId(event2_id);
         event2.setTitle("Call");
-        event2.setDescription("I will call my mom & Dad");
+        event2.setDescription("I will Emi");
         event2.setEndTime("22:30");
         dbTest.updateEvent(event2);
         assertEquals(event2.getId(),dbTest.getEvent("Call").getId());

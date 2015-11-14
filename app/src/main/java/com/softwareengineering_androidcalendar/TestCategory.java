@@ -25,16 +25,16 @@ public class TestCategory extends TestCase {
      * Test get set name.
      */
     public void testGetSetName() {
-        Cat.setName("Shopping");
-        assertEquals(Cat.getName(),"Shopping");
+        Cat.setName("Traveling");
+        assertEquals(Cat.getName(),"Traveling");
     }
 
     /**
      * Test get set color.
      */
     public void testGetSetColor() {
-        Cat.setColor("yellow");
-        assertEquals(Cat.getColor(),"yellow");
+        Cat.setColor("Green");
+        assertEquals(Cat.getColor(),"Green");
     }
 }
 

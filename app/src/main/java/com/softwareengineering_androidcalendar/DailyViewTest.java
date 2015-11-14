@@ -15,7 +15,7 @@ public class DailyViewTest extends AndroidTestCase {
      * Testfind color.
      */
     public void testfindColor() {
-        String color = DailyView.findColor("Red");
+        String color = DailyView.findColor("Orange");
         assertEquals("#FF0000", color);
     }
 }

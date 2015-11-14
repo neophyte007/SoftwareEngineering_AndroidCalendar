@@ -11,13 +11,13 @@ import junit.framework.TestCase;
  */
 public class TestEvent extends TestCase {
     /** The Test event. */
-    Event TestEvent = new Event("Event_Title","9-Nov-2013","10-nov-2013","10:00am","11:30am","Event description","");
+    Event TestEvent = new Event("Event_Title","20-June-1985","21-June-1985","12:00am","11:50am","Event description","");
 
     /**
      * Test to string.
      */
     public void testToString() {
-        assertEquals(TestEvent.toString(),"Event [id=0, title=Event_Title, startDate=9-Nov-2013, endDate=10-nov-2013, startTime=10:00am, endTime=11:30am, description=Event description]");
+        assertEquals(TestEvent.toString(),"Event [id=0, title=Event_Title, startDate=20-June-1985, endDate=20-June-1985, startTime=12:00am, endTime=11:50am, description=Event description]");
     }
 
     /**
@@ -32,24 +32,24 @@ public class TestEvent extends TestCase {
      * Test get set title.
      */
     public void testGetSetTitle() {
-        TestEvent.setTitle("SW Engg Exam");
-        assertEquals(TestEvent.getTitle(),"SW Engg Exam");
+        TestEvent.setTitle("Software Engineering Exam");
+        assertEquals(TestEvent.getTitle(),"Software Engineering Exam");
     }
 
     /**
      * Test get set start date.
      */
     public void testGetSetStartDate() {
-        TestEvent.setStartDate("11/3/2013");
-        assertEquals(TestEvent.getStartDate(),"11/3/2013");
+        TestEvent.setStartDate("20/06/1985");
+        assertEquals(TestEvent.getStartDate(),"20/06/1985");
     }
 
     /**
      * Test get set end date.
      */
     public void testGetSetEndDate() {
-        TestEvent.setEndDate("15/3/2013");
-        assertEquals(TestEvent.getEndDate(),"15/3/2013");
+        TestEvent.setEndDate("21/06/1985");
+        assertEquals(TestEvent.getEndDate(),"21/06/1985");
     }
 
     /**
@@ -64,15 +64,15 @@ public class TestEvent extends TestCase {
      * Test get set end time.
      */
     public void testGetSetEndTime() {
-        TestEvent.setEndTime("12:30pm");
-        assertEquals(TestEvent.getEndTime(),"12:30pm");
+        TestEvent.setEndTime("12:40pm");
+        assertEquals(TestEvent.getEndTime(),"12:40pm");
     }
 
     /**
      * Test get set description.
      */
     public void testGetSetDescription() {
-        TestEvent.setDescription("SW Engg final examination");
-        assertEquals(TestEvent.getDescription(),"SW Engg final examination");
+        TestEvent.setDescription("Software Engineering Exam");
+        assertEquals(TestEvent.getDescription(),"Software Engineering Exam");
     }
 }

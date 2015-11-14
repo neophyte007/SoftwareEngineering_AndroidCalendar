@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+      <item
+        android:id="@+id/edit_event"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/edit_Event"/>
+      
+      <item
+        android:id="@+id/delete_event"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/delete_Event"/>
+
+</menu>
+<!-- From: file:/Users/alamin/Desktop/Fall%202015/SoftwareEngineering_AndroidCalendar/app/src/main/res/menu/event_details.xml -->

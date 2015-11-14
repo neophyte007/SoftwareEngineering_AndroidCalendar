@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:3:5-54
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:5:5-70:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:8:9-36
+	android:allowBackup
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:7:9-45
+	android:theme
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:9:9-40
+activity#com.softwareengineering_androidcalendar.MainActivity
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:11:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.softwareengineering_androidcalendar.MonthlyView
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:21:9-88
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:21:19-85
+activity#com.softwareengineering_androidcalendar.WeeklyView
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:24:9-87
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:24:19-84
+activity#com.softwareengineering_androidcalendar.DailyView
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:27:9-86
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:27:19-83
+activity#com.softwareengineering_androidcalendar.EventActivity
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:30:9-90
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:30:19-87
+activity#com.softwareengineering_androidcalendar.DatePickerActivity
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:35:13-63
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:34:13-86
+activity#com.softwareengineering_androidcalendar.TimePickerActivity
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:40:13-86
+activity#com.softwareengineering_androidcalendar.EventDetailsActivity
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:47:13-50
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:46:13-88
+activity#com.softwareengineering_androidcalendar.EventList
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:51:9-86
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:51:19-83
+activity#com.softwareengineering_androidcalendar.EditEventActivity
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:54:9-57:20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:56:13-62
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:55:13-85
+activity#com.softwareengineering_androidcalendar.EventListByDate
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:60:9-63:20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:62:13-47
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:61:13-83
+activity#com.softwareengineering_androidcalendar.EventListByCategory
+ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:66:9-69:20
+	android:label
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:68:13-51
+	android:name
+		ADDED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml:67:13-87
+uses-sdk
+INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alamin/Desktop/Fall 2015/SoftwareEngineering_AndroidCalendar/app/src/main/AndroidManifest.xml

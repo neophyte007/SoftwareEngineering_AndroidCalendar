@@ -1,0 +1,11 @@
+<selector
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:state_pressed="true"
+		android:drawable="@drawable/cal_left_arrow_on" /> <!-- pressed -->
+	<item
+		android:state_focused="true"
+		android:drawable="@drawable/cal_left_arrow_on" /> <!-- focused -->
+	<item
+		android:drawable="@drawable/cal_left_arrow_off" /> <!-- default -->
+</selector><!-- From: file:/Users/alamin/Desktop/Fall%202015/SoftwareEngineering_AndroidCalendar/app/src/main/res/drawable-hdpi/calendar_left_arrow_selector.xml -->

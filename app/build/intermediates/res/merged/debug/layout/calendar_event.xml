@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.04"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.31"
+                android:ems="10"
+                android:text="Event Title" >
+
+                <requestFocus />
+            </EditText>
+            
+            <Spinner
+            android:id="@+id/spinner_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_weight="0.04"
+                 android:orientation="horizontal" >
+
+               <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.36"
+		        android:text="Start: "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+                        <Button
+                android:id="@+id/toTodaysDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.36"
+                android:text="Todays Date" />
+
+            <Button
+                android:id="@+id/toCurrentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.68"
+                android:text="Current Time" />
+
+        
+          
+
+
+        </LinearLayout>
+             </RelativeLayout>
+             
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_weight="0.04"
+                 android:orientation="horizontal" >
+
+               <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.36"
+		        android:text="End: "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+                        <Button
+                android:id="@+id/fromTodaysDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.36"
+                android:text="Todays Date" />
+
+            <Button
+                android:id="@+id/fromCurrentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.68"
+                android:text="Current Time" />
+
+        
+          
+
+
+        </LinearLayout>
+             </RelativeLayout>
+             
+      <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_weight="0.04"
+                 android:orientation="horizontal" >
+
+               <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.36"
+		        android:text="Description"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+                 
+
+            
+                        <EditText
+                android:id="@+id/editText6"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.31"
+                android:ems="10"
+                android:text="" >
+
+                <requestFocus />
+            </EditText>
+    
+        
+          
+
+
+        </LinearLayout>
+             </RelativeLayout>
+             
+          <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_weight="0.04"
+                 android:orientation="horizontal" >
+
+               <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="110dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.36"
+		        android:text="Category"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+                 
+
+            
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    
+                    <EditText
+                android:id="@+id/editText12"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.31"
+                android:ems="10"
+                android:text="Name" >
+
+                <requestFocus />
+            </EditText>
+          
+            <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+                    
+
+
+        </LinearLayout>
+             </RelativeLayout>
+             
+            <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.04"
+            android:orientation="horizontal" >
+
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.36"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.36"
+                android:text="Save" />
+        </LinearLayout>
+
+    </RelativeLayout>
+          
+</LinearLayout><!-- From: file:/Users/alamin/Desktop/Fall%202015/SoftwareEngineering_AndroidCalendar/app/src/main/res/layout/calendar_event.xml -->
