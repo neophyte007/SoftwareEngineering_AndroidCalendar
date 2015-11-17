@@ -1,7 +1,7 @@
 package com.softwareengineering_androidcalendar;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/10.
  */
 public class Category {
     /** The id. */

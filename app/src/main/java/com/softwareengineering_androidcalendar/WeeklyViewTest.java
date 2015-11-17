@@ -4,7 +4,7 @@ import android.test.AndroidTestCase;
 import junit.framework.TestCase;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/16.
  */
 // TODO: Auto-generated Javadoc
 /**

@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/09.
  */
 public class EventListByDateAdapter extends BaseAdapter{
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");

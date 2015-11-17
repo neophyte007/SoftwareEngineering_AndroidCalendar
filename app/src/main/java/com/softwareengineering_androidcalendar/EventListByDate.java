@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/08.
  */
 public class EventListByDate extends Activity implements android.view.View.OnClickListener {
     private GridView gridView;

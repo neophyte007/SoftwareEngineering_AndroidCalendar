@@ -15,7 +15,7 @@ import java.util.Date;
 
 // TODO: Auto-generated Javadoc
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/10.
  */
 /**
  * The Class DatePickerActivity for selecting date for adding or updating an event

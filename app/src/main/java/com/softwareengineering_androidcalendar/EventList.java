@@ -13,7 +13,7 @@ import android.widget.GridView;
 import java.util.List;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/02.
  */
 // TODO: Auto-generated Javadoc
 public class EventList extends Activity implements OnClickListener {

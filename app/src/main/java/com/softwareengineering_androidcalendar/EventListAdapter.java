@@ -17,7 +17,7 @@ import android.widget.GridView;
 import android.widget.TextView;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/07.
  */
 public class EventListAdapter extends BaseAdapter{
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");

@@ -1,7 +1,7 @@
 package com.softwareengineering_androidcalendar;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by j on 2015/11/09.
  */
 public class Event {
     /** The id. */

@@ -12,7 +12,7 @@ import android.widget.TimePicker;
 // TODO: Auto-generated Javadoc
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/12.
  */
 public class TimePickerActivity extends Activity implements OnClickListener {
 

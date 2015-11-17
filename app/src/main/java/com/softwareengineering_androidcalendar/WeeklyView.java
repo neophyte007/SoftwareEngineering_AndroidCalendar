@@ -23,7 +23,7 @@ import android.widget.TextView;
 
 // TODO: Auto-generated Javadoc
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/09.
  */
 public class WeeklyView extends Activity implements OnClickListener {
 

@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by j on 2015/11/13.
+ * Created by Neophyte on 2015/11/02.
  */
 public class SimpleCalendarView extends BaseAdapter implements OnClickListener{
     /** The Constant tag. */

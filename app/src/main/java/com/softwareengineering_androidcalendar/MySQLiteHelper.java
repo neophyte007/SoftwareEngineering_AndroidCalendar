@@ -19,6 +19,10 @@ import java.util.List;
 /**
  * The Class MySQLiteHelper for all the queries in the database. Mainly for handling the backhand data.
  */
+/**
+ * Created by Neophyte on 2015/11/15.
+ */
+
 public class MySQLiteHelper extends SQLiteOpenHelper{
 
     // Logcat tag
